@@ -56,7 +56,7 @@ Partial Class Form1
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(375, 173)
+        Me.Button3.Location = New System.Drawing.Point(43, 144)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 3
@@ -95,9 +95,10 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(25, 118)
+        Me.Label2.Font = New System.Drawing.Font("Myriad Pro Cond", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(29, 106)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(77, 13)
+        Me.Label2.Size = New System.Drawing.Size(104, 25)
         Me.Label2.TabIndex = 6
         Me.Label2.Text = "version v.0.0.1"
         '
